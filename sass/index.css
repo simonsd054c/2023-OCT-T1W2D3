@@ -1,0 +1,14 @@
+.scss-parent {
+  font-size: 24px;
+  color: blue;
+}
+.scss-parent:hover {
+  color: black;
+}
+.scss-parent .scss-child-1 {
+  color: rgb(98, 98, 19);
+}
+.scss-parent .scss-child-1 .scss-child-2 {
+  color: green;
+  background-color: blue;
+}/*# sourceMappingURL=index.css.map */

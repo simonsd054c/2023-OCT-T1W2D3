@@ -1,0 +1,37 @@
+// .scss-parent {
+//     font-size: 24px;
+//     color: red;
+// }
+
+// .scss-parent:hover {
+//     color: black;
+// }
+
+// .scss-parent .scss-child-1 {
+//     color: rgb(98, 98, 19);
+// }
+
+// .scss-parent .scss-child-1 .scss-child-2 {
+//     color: green;
+//     background-color: red;
+// }
+
+$primary-color: blue;
+
+.scss-parent {
+    font-size: 24px;
+    color: $primary-color;
+
+    &:hover {
+        color: black;
+    }
+
+    .scss-child-1 {
+        color: rgb(98, 98, 19);
+
+        .scss-child-2 {
+            color: green;
+            background-color: $primary-color;
+        }
+    }
+}
